@@ -30,7 +30,7 @@
                                 <label >TIPO DE SOLICITUD</label>
                             </div>
                             <div class="col s6">
-                                <input type="checkbox" id="test1" value="PREFACTIBILIDAD" name="PREFACTIBILIDAD"/>
+                                <input type="checkbox" id="test1" checked disabled value="PREFACTIBILIDAD" name="PREFACTIBILIDAD"/>
                                 <label for="test1">PREFACTIBILIDAD</label><br>
                                 <input type="checkbox" id="test2" value="PORTABILIDAD" name="PORTABILIDAD"/>
                                 <label for="test2">PORTABILIDAD</label>
@@ -229,12 +229,14 @@
 
                     </div>
                     <div class="card-panel grey lighten-5 hoverable">
-                        <div>
-                            <input type="checkbox" id="aceptar" value="SI"/>
-                            <label for="aceptar">Yo he leído y estoy de acuerdo con los Términos del Servicio y Condiciones de Uso</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="submit" id="btenviar" class="btn btn-primaty right" value="Enviar Formulario">
+                        <div class="row">
+                            <div>
+                                <input type="checkbox" id="aceptar" value="SI"/>
+                                <label for="aceptar">He leído y estoy de acuerdo con los Términos del Servicio y Condiciones de Uso</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="submit" id="btenviar" class="btn btn-primaty right" value="Enviar Formulario">
+                            </div>
                         </div>
                     </div>
 
